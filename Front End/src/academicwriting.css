@@ -1,0 +1,20 @@
+.Academicwriting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Academicwriting input {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.Academicwriting ul {
+  list-style-type: none;
+}
