@@ -1,15 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./App.css";
-import Home from "./components/Home";
-import PostForm from "./components/PostForm";
-import PostList from "./components/PostList";
+//import PostForm from "./components/PostForm";
+//import PostList from "./components/PostList";
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
