@@ -54,9 +54,7 @@ function AcademicWriting() {
         </button>
         <ul align="center">
           {AcademicWritingArray.filter((article) => {
-            if (searchTerm === "") {
-              return article;
-            } else if (article.includes(searchTerm)) {
+            if (searchTerm === "" || article.includes(searchTerm)) {
               return article;
             }
           }).map((article, index) => (

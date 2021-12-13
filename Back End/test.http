@@ -1,0 +1,7 @@
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+    "header":"Why cheese is the fucking best",
+    "description":"cheese is the fucking best because it has cheese in it, you can put it on everything and it will be fucking delicious!"
+}
